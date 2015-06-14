@@ -15,6 +15,23 @@ addons:
             - libfreetype6-dev
             - python-qt4
             - doxygen
+            - python-matplotlib
+            - libcoin60-dev
+            - libsoqt4-dev
+            - libxerces-c-dev
+            - qt4-dev-tools
+            - python-pyside
+            - pyside-tools
+            - libopencascade-dev
+            - libeigen3-dev
+            - libshiboken-dev
+            - libode-dev
+            - libzipios++-dev
+            - libsimage-dev
+            - checkinstall
+            - python-pivy
+            - libcoin60-doc
+            - libspnav-dev
 
 script:
     - mkdir build
