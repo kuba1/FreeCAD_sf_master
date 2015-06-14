@@ -3,7 +3,18 @@ language: cpp
 addons:
     apt:
         packages:
+            - libtool
             - libboost-all-dev
+            - libxerces-c28
+            - libqt4-dev
+            - libqt4-opengl-dev
+            - python-dev
+            - libqtwebkit-dev
+            - swig
+            - libfreetype6
+            - libfreetype6-dev
+            - python-qt4
+            - doxygen
 
 script:
     - mkdir build
