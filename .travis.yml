@@ -3,7 +3,7 @@ language: cpp
 addons:
     apt:
         packages:
-            - libboost-dev-all
+            - libboost-all-dev
 
 script:
     - mkdir build
