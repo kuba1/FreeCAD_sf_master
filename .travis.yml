@@ -1,6 +1,9 @@
 language: cpp
 
-script: cmake
+script:
+    - mkdir build
+    - cd build
+    - cmake ..
 
 compiler:
     - gcc
